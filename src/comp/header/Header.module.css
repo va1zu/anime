@@ -1,0 +1,86 @@
+.headerMenu {
+    position: fixed;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0); /* Прозрачный фон */
+    backdrop-filter: blur(10px); /* Опционально, чтобы добавить размытие фона */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.buttonMenu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.buttonMenu a {
+    font-size: 20px;
+    color: white;
+    transition: transform 0.5s ease;
+}
+
+.buttonMenu a:hover {
+    transform: scale(0.9);
+}
+
+.searchBar {
+background: #ffffff21;
+border: none;
+border-radius: 30px;
+font-size: 15px;
+}
+
+.searchBar input {
+    background: none;
+    border: none;
+}
+
+input {
+    border: none;
+    border-radius: 30px;
+    padding: 10px 50px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.login {
+border-radius: 30px;
+padding: 12px 20px;
+font-size: 15px;
+background-color: #ffffff1c;
+}
+
+
+.logo img {
+    width: 60px;   
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(253, 253, 253);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+.logo h1{
+    color: white;
+}
+
+.logo a {
+    color: white;
+    transition: transform 0.5s ease;
+
+}
+
+.logo a:hover {
+    transform: scale(0.9);
+}
+
