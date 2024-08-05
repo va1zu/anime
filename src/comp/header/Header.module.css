@@ -1,6 +1,11 @@
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
 .headerMenu {
     position: fixed;
-    width: 80%;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0); /* Прозрачный фон */
     backdrop-filter: blur(10px); /* Опционально, чтобы добавить размытие фона */
 }
@@ -10,6 +15,7 @@
     justify-content: space-between;
     color: white;
     align-items: center;
+    padding: 20px 0;
 }
 
 .buttonMenu {
@@ -21,7 +27,7 @@
 .buttonMenu a {
     font-size: 20px;
     color: white;
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease;
 }
 
 .buttonMenu a:hover {
@@ -76,7 +82,7 @@ background-color: #ffffff1c;
 
 .logo a {
     color: white;
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease;
 
 }
 
@@ -84,3 +90,6 @@ background-color: #ffffff1c;
     transform: scale(0.9);
 }
 
+.follow {
+  display: none;
+}

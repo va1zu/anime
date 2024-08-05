@@ -18,7 +18,7 @@ const header = () => {
         <div className={cl.buttonMenu}>
           <NavLink to={"/"}>Главная</NavLink>
           <NavLink to={"/Liders"}>Лидеры</NavLink>
-          <NavLink to={"/Follow"}>Избранное</NavLink>
+          <NavLink to={"/Follow"} className={cl.follow}>Избранное</NavLink>
           <div className={cl.searchBar}>
             <input type="text" placeholder="Поиск" />
           </div>
